@@ -10,6 +10,7 @@
  * the last digit and its properties.
  *
  * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
