@@ -10,7 +10,6 @@
  * the last digit and its properties.
  *
  * Return: Always 0 (success)
- *
  */
 int main(void)
 {
@@ -20,7 +19,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
 
-	printf("last digit of %d is %d and is ", n, last_digit);
+	printf("Last digit of %d is %d and is ", n, last_digit);
 	if(last_digit > 5)
 	{
 		printf("greater than 5\n");
