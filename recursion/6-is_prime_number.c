@@ -19,7 +19,13 @@ int is_prime_helper(int n, int i)
 		return (0);
 	return (is_prime_helper(n, i + 1));
 }
-
+/**
+ * is_prime_number - checks if a number is prime
+ *
+ * @n: the number to be checked
+ *
+ * Return: 1 if n is prime, otherwise 0
+ */
 int is_prime_number(int n)
 {
 	return (is_prime_helper(n, 2));
